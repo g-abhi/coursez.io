@@ -2,10 +2,10 @@
 Four Year Course Planner for High School Students
 
 ## Technologies
+* Firebase Hosting (https://coursez-io-a0ed8.web.app/)
 * React
 * Google Cloud Firestore (NoSQL)
 * Google Sign-In (OAuth 2.0)
-* Firebase Hosting (https://coursez-io-a0ed8.web.app/)
 
 ## Features
 * Sign-In with Google to save personalized course plans
