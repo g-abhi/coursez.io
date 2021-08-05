@@ -1,0 +1,164 @@
+body {
+    background-color: #93a1ad;
+}
+
+#greetingtext{
+    text-align: center;
+}
+
+#gradetext{
+    text-align:center;
+}
+
+#course-menu button:focus,#coursedropdown:focus{
+    outline: none;
+}
+
+.userIcon{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+
+.coursedropdown {
+    height: 80px;
+    width: 450px;
+    padding: 0 20px;
+    margin: 25px;
+    border-radius: 50px;
+    border: 0;
+    background-color: #000000;
+    font-size: 20px;
+    color: #e8851d;
+    cursor: pointer;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#course-menu{
+    margin-left: 35px;
+}
+
+#course-menu button {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    border: 0;
+    background-color: #000000;
+    font-size: 32px;
+    color: #e8851d;
+    cursor: pointer;
+    font-weight: bolder;
+    padding: 0;
+    margin-top: 20px;
+}
+
+#GradeCoursePlan {
+    background-color: #e8851d;
+    text-align: center;
+    min-height: 50px;
+    width: 600px;
+    margin: 50px auto;
+    padding: 20px 20px;
+    display: inline-block;
+    border: 9px solid black;
+    margin-left: 30%;
+}
+
+#genStats {
+    background-color: #e8851d;
+    text-align: center;
+    min-height: 50px;
+    width: 600px;
+    margin: 50px auto;
+    margin-top: -50px;
+    margin-bottom: -50px;
+    padding: 20px 20px;
+    display: inline-block;
+    margin-left: 30%;
+}
+
+#greetingtext1 {
+    background-color: #e8851d;
+    text-align: center;
+    min-height: 50px;
+    width: 600px;
+    margin: 50px auto;
+    padding: 20px 20px;
+    margin-left: 30%;
+}
+
+.GradeCoursePlan {
+    display:flex;
+    justify-content:space-between;
+}
+
+#gradeSelection {
+    border-radius: 50%;
+    padding: 5px 5px;
+    margin: 10px 10px auto;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border: 3px solid black;
+    background-color: black;
+    font-weight: bolder;
+    color: #e8851d;
+    transition: transform 0.2s;
+    font-size: 16px;
+}
+
+#gradeSelection:hover {
+    cursor: pointer;
+    transform: scale(1.25);
+    transition: transform 0.2s;
+}
+
+.App {
+    position: center;
+}
+
+.sign-in {
+    background-color: black;
+    text-align: center;
+    margin: 50px auto;
+    border: 5px solid black;
+    border-radius: 50px;
+    min-height: 50px;
+    color: #e8851d;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 20px 20px;
+    transition: transform 0.2s;
+}
+
+.sign-in:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: transform 0.2s;
+}
+
+#generalTitle {
+    background-color: #e8851d;
+    text-align: center;
+    margin: 50px auto;
+}
+
+.show>.dropdown-menu {
+display: block;
+position: absolute;
+}
+
+#exitGuestModeBtn {
+    border: none; 
+    background-color: transparent; 
+    outline: none;
+    font-size: 25px;
+}
+
+#exitGuestModeBtn:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: transform 0.2s;
+}
